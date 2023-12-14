@@ -39,6 +39,8 @@ func MainMulti() {
 		}(i)
 	}
 
+	wg.Wait()
+
 	file, _ := os.Create("mandelbrot-multi.png")
 	png.Encode(file, img)
 	file.Close()
