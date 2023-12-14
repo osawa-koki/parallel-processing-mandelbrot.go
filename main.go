@@ -6,4 +6,5 @@ import (
 
 func main() {
 	app.MainSingle()
+	app.MainMulti()
 }

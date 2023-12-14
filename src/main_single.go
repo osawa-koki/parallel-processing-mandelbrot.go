@@ -29,7 +29,7 @@ func MainSingle() {
 		}
 	}
 
-	file, _ := os.Create("mandelbrot-simple.png")
+	file, _ := os.Create("mandelbrot-single.png")
 	png.Encode(file, img)
 	file.Close()
 }
