@@ -5,4 +5,5 @@ const (
 	width, height          = 1024, 1024
 	iterations             = 200
 	contrast               = 15
+	threadCount            = 4
 )
