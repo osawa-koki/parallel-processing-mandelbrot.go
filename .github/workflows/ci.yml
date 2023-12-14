@@ -1,19 +1,9 @@
 name: ci
 
-on:
-  push:
-    branches:
-      - main
-      - develop
-      - issues/*
-  pull_request:
-    branches:
-      - main
-      - develop
-      - issues/*
+on: [ push ]
 
 jobs:
-  build:
+  ci:
     runs-on: ubuntu-22.04
     steps:
     - uses: actions/checkout@v3
