@@ -1,8 +1,8 @@
 package main
 
 import (
-	"testing"
 	app "example.com/src"
+	"testing"
 )
 
 func BenchmarkSimpleMain(b *testing.B) {
