@@ -26,3 +26,10 @@ BenchmarkMultiMain-8            1000000000               0.07167 ns/op
 PASS
 ok      example.com     3.418s
 ```
+
+## Dockerで実行する
+
+```shell
+docker build -t my-image .
+docker run --rm -it --name my-container my-image
+```
